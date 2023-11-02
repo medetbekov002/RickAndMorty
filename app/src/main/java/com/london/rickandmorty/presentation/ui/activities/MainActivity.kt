@@ -1,4 +1,4 @@
-package com.london.rickandmorty
+package com.london.rickandmorty.presentation.ui.activities
 
 import MainScreen
 import android.os.Bundle

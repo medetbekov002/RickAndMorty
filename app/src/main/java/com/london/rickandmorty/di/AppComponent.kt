@@ -1,0 +1,11 @@
+package com.london.rickandmorty.di
+
+import com.london.rickandmorty.extensions.App
+import dagger.Component
+import javax.inject.Singleton
+
+@Singleton
+@Component(modules = [AppModule::class, DataModule::class, DomainModule::class])
+interface AppComponent {
+    fun inject(app: App)
+}
