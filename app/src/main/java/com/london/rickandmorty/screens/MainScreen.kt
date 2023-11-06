@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import com.london.rickandmorty.presentation.ui.viewmodel.RickAndMortyViewModel
 
 @Composable
-fun MainScreen(viewModel: RickAndMortyViewModel = viewModel()) {
+fun MainScreen(viewModel: RickAndMortyViewModel = viewmodel()) {
     val state = viewModel.state.collectAsState()
 
     Box(modifier = Modifier.fillMaxSize()) {
