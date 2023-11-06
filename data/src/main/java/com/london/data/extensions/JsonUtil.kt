@@ -1,4 +1,4 @@
-package com.london.rickandmorty.data.extensions
+package com.london.data.extensions
 
 import android.content.Context
 import com.squareup.moshi.Moshi

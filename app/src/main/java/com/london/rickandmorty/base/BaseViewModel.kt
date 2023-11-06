@@ -7,7 +7,7 @@ import androidx.paging.cachedIn
 import androidx.paging.map
 import com.london.rickandmorty.common.UIState
 import com.london.rickandmorty.domain.extensions.Either
-import com.london.rickandmorty.domain.extensions.NetworkError
+import com.london.domain.extensions.NetworkError
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow

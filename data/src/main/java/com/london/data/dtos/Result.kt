@@ -1,4 +1,4 @@
-package com.london.domain.extensions
+package com.london.data.dtos
 
 data class Result(
     val created: String,

@@ -66,6 +66,7 @@ dependencies {
 
     // Room
     api(Libraries.Room.runtime)
+    implementation(project(mapOf("path" to ":domain")))
     ksp(Libraries.Room.compiler)
     implementation(Libraries.Room.ktx)
 

@@ -1,6 +1,5 @@
 package com.london.domain.usecases
 
-import com.london.domain.extensions.Resource
 import com.london.domain.model.RickAndMortyModel
 import com.london.domain.model.toDomain
 import com.london.domain.repositories.RickAndMortyRepository

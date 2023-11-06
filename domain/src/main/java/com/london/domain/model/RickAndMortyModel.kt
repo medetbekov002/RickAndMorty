@@ -1,7 +1,6 @@
 package com.london.domain.model
 
-import com.london.domain.extensions.Result
-
+import com.london.data.dtos.Result
 data class RickAndMortyModel(
     val created: String,
     val gender: String,

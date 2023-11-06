@@ -1,4 +1,4 @@
-package com.london.rickandmorty.data.base
+package com.london.data.base
 
 import com.google.gson.annotations.SerializedName
 

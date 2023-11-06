@@ -1,4 +1,4 @@
-package com.london.rickandmorty.data.base
+package com.london.data.base
 
 import android.util.Log
 import android.webkit.MimeTypeMap
@@ -6,13 +6,17 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.london.data.extensions.DataMapper
+import com.london.data.extensions.fromJson
+import com.london.domain.extensions.Either
 import com.london.rickandmorty.data.BuildConfig
-import com.london.rickandmorty.data.extensions.DataMapper
-import com.london.rickandmorty.data.extensions.fromJson
-import com.london.rickandmorty.domain.extensions.Either
-import com.london.rickandmorty.domain.extensions.NetworkError
+import com.london.domain.extensions.NetworkError
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.catch
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOn
+import kotlinx.coroutines.flow.map
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody.Companion.asRequestBody

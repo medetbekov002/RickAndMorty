@@ -1,4 +1,4 @@
-package com.london.rickandmorty.data.dtos
+package com.london.data.dtos
 
 data class Characters(
     val info: Info,

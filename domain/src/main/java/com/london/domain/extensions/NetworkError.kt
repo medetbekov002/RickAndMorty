@@ -1,4 +1,4 @@
-package com.london.rickandmorty.domain.extensions
+package com.london.domain.extensions
 
 sealed class NetworkError {
     class Unexpected(val error: String) : NetworkError()

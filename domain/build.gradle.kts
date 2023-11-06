@@ -8,8 +8,6 @@ java {
 }
 
 dependencies {
-    implementation(project(mapOf("path" to ":app")))
-    implementation(project(mapOf("path" to ":data")))
 
     // Javax Inject
     api(Libraries.Javax.inject)
