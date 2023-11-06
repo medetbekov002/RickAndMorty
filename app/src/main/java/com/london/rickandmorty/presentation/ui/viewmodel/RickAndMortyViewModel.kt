@@ -3,7 +3,7 @@ package com.london.rickandmorty.presentation.ui.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.london.rickandmorty.domain.usecases.RickAndMortyUseCase
-import com.london.rickandmorty.extensions.Resource
+import com.london.rickandmorty.presentation.extensions.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow

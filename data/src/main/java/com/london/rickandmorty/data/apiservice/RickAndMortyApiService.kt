@@ -1,7 +1,7 @@
 package com.london.rickandmorty.data.apiservice
 
 import com.london.rickandmorty.data.dtos.Characters
-import com.london.rickandmorty.extensions.Constants
+import com.london.rickandmorty.presentation.extensions.Constants
 import retrofit2.http.GET
 
 interface RickAndMortyApiService {

@@ -98,6 +98,9 @@ dependencies {
         debugImplementation("androidx.compose.ui:ui-tooling")
         debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+        // ViewBinding property delegate
+        implementation(Libraries.UIComponents.vbpd)
+
         // Room
         implementation(Libraries.Room.runtime)
         kapt(Libraries.Room.compiler)

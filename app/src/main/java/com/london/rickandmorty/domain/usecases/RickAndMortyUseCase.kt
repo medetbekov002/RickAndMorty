@@ -3,7 +3,7 @@ package com.london.rickandmorty.domain.usecases
 import com.london.rickandmorty.domain.model.RickAndMortyModel
 import com.london.rickandmorty.domain.model.toDomain
 import com.london.rickandmorty.domain.repositories.RickAndMortyRepository
-import com.london.rickandmorty.extensions.Resource
+import com.london.rickandmorty.presentation.extensions.Resource
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException

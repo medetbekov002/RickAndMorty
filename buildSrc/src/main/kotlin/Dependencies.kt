@@ -9,7 +9,6 @@ object Versions {
     const val dagger2 = "2.46.1"
     const val okHttp = "5.0.0-alpha.11"
     const val retrofit = "2.9.0"
-    const val gsonconverter = "2.5.0"
     const val sqlite = "2.4.0"
     const val dublicate = "1.8.0"
     const val activity = "1.8.0"
@@ -19,6 +18,10 @@ object Versions {
     const val engage = "1.3.1"
     const val coil = "2.2.2"
     const val KSP = "1.8.21-1.0.11"
+    const val vbpd = "1.5.9"
+    const val moshi = "1.14.0"
+    const val gson = "2.8.9"
+    const val gsonconverter ="2.5.0"
 }
 
 object Libraries {
@@ -85,6 +88,9 @@ object Libraries {
         const val androidui = "androidx.compose.ui:ui-android:${
             Versions.compose
         }"
+        const val vbpd = "com.github.kirich1409:viewbindingpropertydelegate-noreflection:${
+            Versions.vbpd
+        }"
         const val ui = "androidx.compose.ui:ui"
         const val graphics = "androidx.compose.ui:ui-graphics"
         const val preview = "androidx.compose.ui:ui-tooling-preview"
@@ -146,11 +152,21 @@ object Libraries {
         }"
     }
 
+    object Moshi {
+        const val moshi = "com.squareup.moshi:moshi:${Versions.moshi}"
+        const val kotlin = "com.squareup.moshi:moshi-kotlin:${Versions.moshi}"
+    }
+
     object Dublicate {
         const val dublicate = "org.jetbrains.kotlin:kotlin-bom:${
             Versions.dublicate
         }"
     }
+
+    object Gson {
+        const val gson = "com.google.code.gson:gson:${Versions.gson}"
+    }
+
     object SqLite {
         const val sqlite = "androidx.sqlite:sqlite:${
             Versions.sqlite

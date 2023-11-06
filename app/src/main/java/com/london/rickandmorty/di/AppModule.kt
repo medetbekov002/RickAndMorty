@@ -5,7 +5,7 @@ import android.content.Context
 import com.london.rickandmorty.data.apiservice.RickAndMortyApiService
 import com.london.rickandmorty.data.repositories.RickAndMortyRepositoryImpl
 import com.london.rickandmorty.domain.repositories.RickAndMortyRepository
-import com.london.rickandmorty.extensions.Constants
+import com.london.rickandmorty.presentation.extensions.Constants
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit

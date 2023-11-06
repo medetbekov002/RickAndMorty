@@ -1,4 +1,4 @@
-package com.london.rickandmorty.extensions
+package com.london.rickandmorty.presentation.extensions
 
 import android.app.Application
 import com.london.rickandmorty.di.AppComponent
