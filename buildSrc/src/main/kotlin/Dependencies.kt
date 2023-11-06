@@ -16,7 +16,9 @@ object Versions {
     const val paging = "3.1.1"
     const val navigation = "2.5.3"
     const val compose = "1.5.4"
+    const val engage = "1.3.1"
     const val coil = "2.2.2"
+    const val KSP = "1.8.21-1.0.11"
 }
 
 object Libraries {
@@ -90,6 +92,12 @@ object Libraries {
         const val tooling = "androidx.compose.ui:ui-tooling"
         const val unit = "androidx.compose.ui:ui-test-junit4"
         const val manifest = "androidx.compose.ui:ui-test-manifest"
+    }
+
+    object Engage {
+        const val engage = "com.google.android.engage:engage-core:${
+            Versions.engage
+        }"
     }
 
     object Navigation {
@@ -173,7 +181,14 @@ object Plugins {
         const val safeArgs = "androidx.navigation.safeargs.kotlin"
     }
 
+    object KSP {
+        const val ksp = "com.google.devtools.ksp"
+    }
+
     object Hilt {
         const val android = "com.google.dagger.hilt.android"
+    }
+    object Parcelize {
+        const val kotlinparcelize = "kotlin-parcelize"
     }
 }
