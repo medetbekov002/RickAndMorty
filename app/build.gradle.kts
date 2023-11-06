@@ -7,7 +7,7 @@ plugins {
     id(Plugins.Navigation.safeArgs)
 
     // Hilt
-    id(Plugins.Hilt.android)
+//    id(Plugins.Hilt.android)
 
     // Kotlin-Parcelize
     id(Plugins.Parcelize.kotlinparcelize)
@@ -71,6 +71,7 @@ dependencies {
 
     dependencies {
         implementation(project(mapOf("path" to ":data")))
+        implementation(project(mapOf("path" to ":domain")))
 
         implementation("androidx.core:core-ktx:1.9.0")
         //implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
@@ -118,9 +119,9 @@ dependencies {
         implementation(Libraries.Coroutines.core)
         implementation(Libraries.Coroutines.android)
 
-        // Dagger-Hilt
-        implementation(Libraries.Hilt.android)
-        kapt(Libraries.Hilt.compiler)
+//        // Dagger-Hilt
+//        implementation(Libraries.Hilt.android)
+//        kapt(Libraries.Hilt.compiler)
 
         // Dagger2
         implementation(Libraries.Dagger2.android)

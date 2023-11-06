@@ -15,4 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "RickAndMorty"
 include (":app", ":data", ":domain")
-include(":Domain")
