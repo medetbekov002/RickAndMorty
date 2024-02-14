@@ -1,7 +1,7 @@
 package com.london.rickandmorty.di
 
-import com.london.rickandmorty.domain.repositories.RickAndMortyRepository
-import com.london.rickandmorty.domain.usecases.RickAndMortyUseCase
+import com.london.domain.repositories.RickAndMortyRepository
+import com.london.domain.usecases.RickAndMortyUseCase
 import dagger.Module
 import dagger.Provides
 

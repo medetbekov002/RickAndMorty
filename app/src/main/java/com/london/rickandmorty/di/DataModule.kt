@@ -2,7 +2,7 @@ package com.london.rickandmorty.di
 
 import com.london.data.apiservice.RickAndMortyApiService
 import com.london.data.repositories.RickAndMortyRepositoryImpl
-import com.london.rickandmorty.domain.repositories.RickAndMortyRepository
+import com.london.domain.repositories.RickAndMortyRepository
 import com.london.rickandmorty.presentation.extensions.Constants
 import dagger.Module
 import dagger.Provides

@@ -74,7 +74,7 @@ dependencies {
         implementation(project(mapOf("path" to ":domain")))
 
         implementation("androidx.core:core-ktx:1.9.0")
-        //implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
+        implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
 
         // Activity and Compose bom
         implementation(Libraries.Activity.activity)
